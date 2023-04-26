@@ -13,7 +13,7 @@ export const LoadMoreBtn = styled(StyledBtn)`
 export const BackLink = styled(StyledBtn)`
   display: flex;
   align-items: center;
-  width: 140px;
+  width: 100px;
 
   color: #373737;
   text-align: center;

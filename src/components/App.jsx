@@ -1,7 +1,7 @@
 import { lazy } from 'react';
 import { Route, Routes } from 'react-router-dom';
 import { GlobalStyles } from './GlobalStyles';
-import Layout from './Layout';
+import Layout from './Layout/Layout';
 import 'modern-normalize';
 
 const Home = lazy(() => import('Page/Home/Home'));

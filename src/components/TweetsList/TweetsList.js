@@ -1,11 +1,12 @@
 import { TweetsItem } from 'components/TweetsItem/TweetsItem';
+import { List } from './TweetsList.styled';
 
-export const TweetsList = ({ users }) => {
+export const TweetsList = ({ tweets }) => {
   return (
-    <ul>
-      {users.map(user => {
-        return <TweetsItem key={user.id} user={user} />;
+    <List>
+      {tweets.map(tweet => {
+        return <TweetsItem key={tweet.id} tweet={tweet} />;
       })}
-    </ul>
+    </List>
   );
 };
